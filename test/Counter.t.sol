@@ -17,6 +17,17 @@ contract CounterTest is Test {
         assertEq(counter.number(), 1);
     }
 
+    function test_DoubleIncrementFail() public {
+        counter.increment();
+        counter.doubleIncrement();
+        assertEq(counter.number(), 2);
+    }
+
+    function test_DoubleIncrement() public {
+        counter.doubleIncrement();
+        assertEq(counter.number(), 2);
+    }
+
     function testFuzz_SetNumber(uint256 x) public {
         counter.setNumber(x);
         assertEq(counter.number(), x);
