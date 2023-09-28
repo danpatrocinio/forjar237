@@ -1,0 +1,37 @@
+{
+  "transactions": [
+    {
+      "hash": "0x72996e007478b0c3617c551181416977536215dac5af8bc33fc1d74c62d373d5",
+      "transactionType": "CALL",
+      "contractName": "ExercicioToken",
+      "contractAddress": "0x3e94d431157e857Ce269746471eeb9b098b73aa3",
+      "function": "mint(address,uint256):(bool)",
+      "arguments": [
+        "0xC9b376F6381f9b31C4F4D46b108255c46B2709B0",
+        "1000000000000000000"
+      ],
+      "transaction": {
+        "type": "0x02",
+        "from": "0xc9b376f6381f9b31c4f4d46b108255c46b2709b0",
+        "to": "0x3e94d431157e857ce269746471eeb9b098b73aa3",
+        "gas": "0x125b2",
+        "value": "0x0",
+        "data": "0x40c10f19000000000000000000000000c9b376f6381f9b31c4f4d46b108255c46b2709b00000000000000000000000000000000000000000000000000de0b6b3a7640000",
+        "nonce": "0x13",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x72996e007478b0c3617c551181416977536215dac5af8bc33fc1d74c62d373d5"
+  ],
+  "returns": {},
+  "timestamp": 1695847874,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "c5426c2"
+}

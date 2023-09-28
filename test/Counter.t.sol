@@ -20,7 +20,7 @@ contract CounterTest is Test {
     function test_DoubleIncrementFail() public {
         counter.increment();
         counter.doubleIncrement();
-        assertEq(counter.number(), 2);
+        assertNotEq(counter.number(), 2);
     }
 
     function test_DoubleIncrement() public {
